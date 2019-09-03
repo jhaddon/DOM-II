@@ -76,3 +76,10 @@ imgDrag.forEach( (e) => {
         console.log("Image Dragged")
     })
 });
+
+// Stop the Navigation
+
+const noNav = document.querySelector('.nav');
+noNav.addEventListener('click', e => {
+  e.preventDefault();
+})
